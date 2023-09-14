@@ -27,15 +27,6 @@ The goal here is to estimate new salaries for new hire employees based on levels
 5. Predict the test set results.
 6. Visualize the results.
 
-### Polynomial Regression
-
-1. Import the necessary libraries.
-2. Load the dataset.
-3. Prepare the features (`X`) and target (`y`) variables.
-4. Fit a Linear Regression model to the dataset (missing line).
-5. Fit a Polynomial Regression model to the dataset with different degrees.
-6. Visualize the results with different polynomial degrees.
-
 ### Multiple Linear Regression
 
 1. Import the necessary libraries.
@@ -46,6 +37,15 @@ The goal here is to estimate new salaries for new hire employees based on levels
 6. Fit a Multiple Linear Regression model to the training set.
 7. Predict the test set results.
 8. Build the optimal model using Backward Elimination.
+
+### Polynomial Regression
+
+1. Import the necessary libraries.
+2. Load the dataset.
+3. Prepare the features (`X`) and target (`y`) variables.
+4. Fit a Linear Regression model to the dataset (missing line).
+5. Fit a Polynomial Regression model to the dataset with different degrees.
+6. Visualize the results with different polynomial degrees.
 
 
 This summary provides an overview of the models covered in your repository along with a brief guide on how to use them. It also emphasizes the customization required based on specific datasets and problems.
