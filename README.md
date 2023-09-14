@@ -8,9 +8,6 @@ Welcome to my Machine Learning Repository! This repository documents my journey 
 
 Regression analysis is fundamental in predictive modeling. In this section, I've tackled regression problems using various techniques, including linear regression, decision trees, and ensemble methods.
 
-- Regression_Techniques
-- https://github.com/kotaUdaySree/Machine_Learning/tree/cb219f9714dd1d4bb81484bbbecd13ee9d402097/Regression_Techniques
-
 ### Neural Networks
 
 This section is dedicated to the study and implementation of various Neural Network architectures. I've worked on feedforward neural networks, deep learning models, and more. Explore this section to delve into the world of neural networks.
