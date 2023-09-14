@@ -4,26 +4,27 @@ Welcome to my Machine Learning Repository! This repository documents my journey 
 
 ## Contents
 
-### Regression Techniques
+The order to learn the Machine Learning models is as follows: 
+### 1. Regression Techniques
 
 Regression analysis is fundamental in predictive modeling. In this section, I've tackled regression problems using various techniques, including linear regression, decision trees, and ensemble methods.
 
-### Neural Networks
+### 2. Neural Networks
 
 This section is dedicated to the study and implementation of various Neural Network architectures. I've worked on feedforward neural networks, deep learning models, and more. Explore this section to delve into the world of neural networks.
 
 
-### Recurrent Neural Networks (RNN)
+### 3. Recurrent Neural Networks (RNN)
 
 Recurrent Neural Networks are a powerful class of models for sequential data. In this section, I've developed RNN-based solutions for tasks like text generation, time series prediction, and more.
 
 
-### Image Captioning using CNN
+### 4. Image Captioning using CNN
 
 In this section, I explore the fascinating domain of computer vision and natural language processing. The project focuses on generating textual descriptions for images using Convolutional Neural Networks (CNNs). You can find detailed code, data, and results in this directory.
 
 
-### Support Vector Machine (SVM) Models
+### 5. Support Vector Machine (SVM) Models
 
 SVMs are widely used for classification and regression tasks. This section contains implementations of SVM-based models for solving classification problems. You can also find the updated README file here.
 
