@@ -1,44 +1,82 @@
 # Stock Price Prediction with Neural Networks
 
-This repository contains Python code for predicting stock prices using artificial neural networks. The implementation includes features for data preprocessing, feature engineering, and training a feedforward neural network. Below is a brief overview of the key components:
+Predicting stock prices is a challenging yet crucial task for investors and financial analysts. This repository provides a Python-based solution that employs artificial neural networks to predict stock prices. This README file provides a comprehensive overview of the project, its components, and how to use it effectively.
 
-## Code Summary:
+## Table of Contents
 
-1. **Feature Generation and Extraction**:
-   - Functions are provided to generate additional features from the original financial dataset, such as moving averages, ratios, standard deviations, and returns.
+- [Introduction](#introduction)
+- [Code Summary](#code-summary)
+  - [Feature Generation and Extraction](#feature-generation-and-extraction)
+  - [Dataset Splitting](#dataset-splitting)
+  - [Feature Scaling](#feature-scaling)
+  - [Neural Network Training](#neural-network-training)
+  - [Making Predictions](#making-predictions)
+  - [Evaluation](#evaluation)
+  - [Plotting Results](#plotting-results)
+- [Usage](#usage)
+  - [Dataset](#dataset)
+  - [Dependencies](#dependencies)
+  - [Running the Code](#running-the-code)
+- [Note](#note)
 
-2. **Dataset Splitting**:
-   - The data is divided into training and testing sets based on specified date ranges. The training set spans from 1988 to 2018, while the testing set covers the year 2019.
+## Introduction
 
-3. **Feature Scaling**:
-   - Standardization of features is performed to improve the convergence of the neural network during training.
+Predicting stock prices is a complex problem due to the myriad of factors influencing financial markets. Artificial neural networks, particularly feedforward neural networks, have shown promise in capturing intricate patterns within financial time series data. This project leverages neural networks to predict stock prices based on historical data and relevant features.
 
-4. **Neural Network Training**:
-   - A feedforward neural network with two hidden layers (16 and 8 units) is constructed. The ReLU activation function is employed, and training is carried out using the scaled training data.
+## Code Summary
 
-5. **Making Predictions**:
-   - The trained neural network is used to make predictions on the scaled test data.
+### Feature Generation and Extraction
 
-6. **Evaluation**:
-   - The script calculates and prints the R-squared score, mean absolute error (MAE), and mean squared error (MSE) to assess the model's performance on the test data.
+The code includes functions to generate and extract additional features from the original financial dataset. These features go beyond raw price and volume data and encompass moving averages, ratios, standard deviations, and returns. These features aim to capture relevant information that can improve prediction accuracy.
 
-7. **Plotting Results**:
-   - The results are visualized with a plot showing true closing prices in red and predicted prices in green for the test set.
+### Dataset Splitting
 
-8. **Output**:
-   - The output includes the predicted values for each data point in the test set.
+The dataset is split into two subsets: the training set and the testing set. The training data spans from 1988 to 2018, while the testing data covers the year 2019. Proper dataset splitting ensures that the model is evaluated on unseen data, which is crucial for assessing its real-world predictive performance.
 
-## Usage:
+### Feature Scaling
 
-1. **Dataset**:
-   - Ensure you have a financial dataset in CSV format, containing columns like 'Open', 'High', 'Low', 'Close', and 'Volume' for different dates.
+Before feeding the data into the neural network, feature scaling is applied using the `StandardScaler` from `sklearn.preprocessing`. Scaling the features to have a consistent scale helps in the convergence of the neural network during training.
 
-2. **Dependencies**:
-   - Make sure you have the required Python libraries installed, including Pandas, NumPy, Scikit-learn, and Matplotlib.
+### Neural Network Training
 
-3. **Running the Code**:
-   - Execute the Python script, and it will perform feature generation, model training, and prediction. The results will be displayed, and a plot will be generated.
+A feedforward neural network architecture is employed for stock price prediction. This network consists of two hidden layers with 16 and 8 units, respectively, and ReLU (Rectified Linear Unit) activation functions. The model is trained using the scaled training data. The choice of architecture and activation functions can be further customized based on specific requirements.
 
+### Making Predictions
 
+The trained neural network is utilized to make predictions on the scaled test data. Predictions are generated for each data point in the test set.
 
+### Evaluation
+
+To assess the model's performance, key evaluation metrics are computed, including:
+- R-squared score: Measures the proportion of the variance in the dependent variable (stock prices) that is predictable from the independent variables (features).
+- Mean Absolute Error (MAE): Represents the average absolute difference between predicted and actual prices.
+- Mean Squared Error (MSE): Quantifies the average squared difference between predicted and actual prices.
+
+These metrics provide insights into the accuracy and reliability of the model's predictions.
+
+### Plotting Results
+
+The project also includes functionality to visualize the model's predictions. A plot is generated to display both the true closing prices (in red) and the predicted prices (in green) for the test set. Visualization aids in understanding how well the model captures price trends.
+
+## Usage
+
+To utilize this stock price prediction project, follow these steps:
+
+### Dataset
+
+Download the financial dataset in CSV format. The dataset should include relevant columns such as 'Open,' 'High,' 'Low,' 'Close,' and 'Volume' for different dates. The quality and completeness of your dataset significantly impact the model's performance.
+
+### Dependencies
+
+Make sure you have the necessary Python libraries installed to run the code successfully. Key libraries used in this project include:
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+
+You can typically install these libraries using pip or conda.
+
+### Running the Code
+
+Execute the provided Python script to initiate the stock price prediction process. The script performs feature generation, neural network training, and prediction. The results, including evaluation metrics and a visual plot, will be displayed. Ensure that you address any warnings or issues related to the sigmoid function mentioned in the code.
 
