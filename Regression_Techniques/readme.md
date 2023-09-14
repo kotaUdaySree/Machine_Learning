@@ -48,4 +48,4 @@ The goal here is to estimate new salaries for new hire employees based on levels
 6. Visualize the results with different polynomial degrees.
 
 
-This summary provides an overview of the models covered in your repository along with a brief guide on how to use them. It also emphasizes the customization required based on specific datasets and problems.
+This summary provides an overview of the models covered in repository along with a brief guide on how to use them. It also emphasizes the customization required based on specific datasets and problems.
