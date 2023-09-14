@@ -8,7 +8,7 @@ The dataset (`SVMs_dataset`) contains customer information for an auto company. 
 
 ## Task Description
 
-Your objective is to implement two different SVM models to accomplish the same task. You'll find two Python implementations (`SVMs-01.py` and `SVMs-02.py`) with 100% of the working source codes to help you understand the flow of the implementations. However, feel free to use your own programming flow or strategies if you prefer. You are not obligated to use the provided templates fully or partially.
+I implemented two different SVM models to accomplish the same task. You'll find two Python implementations (`SVMs-01.py` and `SVMs-02.py`) with 100% of the working source codes to help you understand the flow of the implementations.
 
 ## Dataset Details
 
