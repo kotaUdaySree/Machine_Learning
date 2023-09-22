@@ -154,9 +154,12 @@ print('Test accuracy:', acc)
 
 ## Usage
 
-To run the code, make sure you have the required libraries installed. You can install them using the following command:
-Then, you can execute each section of the code in a Python environment.
+To run the code, make sure you have the required libraries installed. Then, you can execute each section of the code in a Python environment.
 
 ## Acknowledgements
 
 - The IMDb dataset is part of the Keras library and can be found [here](https://keras.io/api/datasets/imdb/).
+
+
+If you have any other questions or need further assistance, feel free to let me know!
+
