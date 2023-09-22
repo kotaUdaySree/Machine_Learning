@@ -5,7 +5,7 @@ Welcome to my Machine Learning Repository! This repository documents my journey 
 ## Contents
 
 The order to learn the Machine Learning models is as follows: 
-### 1. Regression Techniques
+### 1.	Regression Techniques
 
 Regression analysis is fundamental in predictive modeling. In this section, I've tackled regression problems using various techniques, including linear regression, decision trees, and ensemble methods.
 
